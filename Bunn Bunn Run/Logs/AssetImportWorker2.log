@@ -1,0 +1,494 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Foster Games/Bunn Bunn/Bunn Bunn Run
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54646
+Successfully changed project path to: D:/Foster Games/Bunn Bunn/Bunn Bunn Run
+D:/Foster Games/Bunn Bunn/Bunn Bunn Run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1896] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2082224987 [EditorId] 2082224987 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NB6RF0J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1896] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2082224987 [EditorId] 2082224987 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NB6RF0J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Foster Games/Bunn Bunn/Bunn Bunn Run/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     8001 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011028 seconds.
+- Loaded All Assemblies, in  0.345 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Foster Games\Bunn Bunn\Bunn Bunn Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Foster Games\Bunn Bunn\Bunn Bunn Run\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (407.4 KB). Loaded Objects now: 3627.
+Memory consumption went from 119.9 MB to 119.5 MB.
+Total: 3.060600 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.240000 ms MarkObjects: 2.283300 ms  DeleteObjects: 0.237600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1145664.275887 seconds.
+  path: Assets/Toon Gas Station/Prefabs
+  artifactKey: Guid(c8fec737017d8d64fa8dfdca9496ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs using Guid(c8fec737017d8d64fa8dfdca9496ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8ef8f6bfd58355496168c2d4a8a172') in 0.002617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052050 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Barrel_1F.prefab
+  artifactKey: Guid(d6cda6cdccb84b3439d791e01c71339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Barrel_1F.prefab using Guid(d6cda6cdccb84b3439d791e01c71339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6662ddfd2d9b7179a035c375df2c2e') in 0.232617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Pavement_2J_2X2.prefab
+  artifactKey: Guid(b3b30da2af31dfe44b078040b1ed3e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Pavement_2J_2X2.prefab using Guid(b3b30da2af31dfe44b078040b1ed3e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc79b6e9c98c20b0801c456fe2a1445') in 0.021503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Car_6G.prefab
+  artifactKey: Guid(8952388f882d347438563c4e45e6ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Car_6G.prefab using Guid(8952388f882d347438563c4e45e6ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3014a38d2fd9a579b8fafb67cfdce412') in 0.021006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Pavement_Special_1A_12X12.prefab
+  artifactKey: Guid(6974bfebd354b4d4abbfc516d68a2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Pavement_Special_1A_12X12.prefab using Guid(6974bfebd354b4d4abbfc516d68a2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088180bf3cad1e85075b1104b0d180b8') in 0.017987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Gas_Pump_1A.prefab
+  artifactKey: Guid(09e575d3fd166f4489c573635ce22f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Gas_Pump_1A.prefab using Guid(09e575d3fd166f4489c573635ce22f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b89c0dced4313c59d458ecf0fe79b1e') in 0.018884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Rock_Cluster_1A.prefab
+  artifactKey: Guid(bba84dffd74116f409ff2fdb22a8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Rock_Cluster_1A.prefab using Guid(bba84dffd74116f409ff2fdb22a8855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dafca4ea82691d6f6492c63cff32f4') in 0.020559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_6B.prefab
+  artifactKey: Guid(c2d0aff228303534ebf73d11faa6fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_6B.prefab using Guid(c2d0aff228303534ebf73d11faa6fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853d9787fd7cdf48f382552b30888282') in 0.018977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_7A.prefab
+  artifactKey: Guid(2e13d51711ba7be49a2291044d249a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_7A.prefab using Guid(2e13d51711ba7be49a2291044d249a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50840dfc6c5b1c2239d0514106d859f3') in 0.032888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Streetlight_1C.prefab
+  artifactKey: Guid(fa1171c4c28a81e40a4541222c24d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Streetlight_1C.prefab using Guid(fa1171c4c28a81e40a4541222c24d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539ab801843ee127b4d0a8ad285d9691') in 0.017558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Road_3W.prefab
+  artifactKey: Guid(210adf71097388940bcd0ef3997f3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Road_3W.prefab using Guid(210adf71097388940bcd0ef3997f3c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b46daef9634129b15ef0dcc4c4816e8') in 0.017909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Pavement_Rounded_2E_8X8.prefab
+  artifactKey: Guid(eb833c28482ce2f459dfdf7aa225bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Pavement_Rounded_2E_8X8.prefab using Guid(eb833c28482ce2f459dfdf7aa225bb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2324a791bc3940fed278116a670c3fe') in 0.020516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Tree_6D.prefab
+  artifactKey: Guid(ad41226cf815d854487b83868699253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Tree_6D.prefab using Guid(ad41226cf815d854487b83868699253e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a26c505827de573c2acd7f52acf3c5') in 0.017336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Gas_Tank_1A.prefab
+  artifactKey: Guid(3f6845443ff1c26428a90cf51e082da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Gas_Tank_1A.prefab using Guid(3f6845443ff1c26428a90cf51e082da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa7f4acedd74c48398ae9173bdd427d') in 0.019194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Gas Station/Prefabs/Road_1A.prefab
+  artifactKey: Guid(4fa7824a621d72c419d77f7c478045eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Prefabs/Road_1A.prefab using Guid(4fa7824a621d72c419d77f7c478045eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b66f88168ba79e2558ad4613b4b74f') in 0.017285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 92.092325 seconds.
+  path: Assets/Toon Gas Station/ToonShading
+  artifactKey: Guid(57fde5ce631596a48a16fc6010cc619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/ToonShading using Guid(57fde5ce631596a48a16fc6010cc619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d69f22affe0c7b12250639b3fa079b') in 0.000628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.721762 seconds.
+  path: Assets/Toon Gas Station/ToonShading/Shaders
+  artifactKey: Guid(f387c79e52158b64aa96a44b0577c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/ToonShading/Shaders using Guid(f387c79e52158b64aa96a44b0577c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece80c6226781915a5477d0f7ce65162') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.937032 seconds.
+  path: Assets/Toon Gas Station/Textures
+  artifactKey: Guid(3465e40910d982c46be39d6fbb2b7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures using Guid(3465e40910d982c46be39d6fbb2b7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051f09f551fc251d93b3150b9e857e67') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.389973 seconds.
+  path: Assets/Toon Gas Station/Textures/Building_7B_D.psd
+  artifactKey: Guid(ff0a57c8b6e10044b97a3bc1559ee2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Building_7B_D.psd using Guid(ff0a57c8b6e10044b97a3bc1559ee2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d6dbadecd2e1a9431352e8174c56c7') in 0.025766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Gas Station/Textures/Tiles_2A.psd
+  artifactKey: Guid(681b928a33d01b84798f358d41386c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Tiles_2A.psd using Guid(681b928a33d01b84798f358d41386c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a091510994b8b57760c44540ab3b70d4') in 0.027789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Gas Station/Textures/Grass_1C.psd
+  artifactKey: Guid(9aa8c77a5279e404f9ff2e67dd43a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Grass_1C.psd using Guid(9aa8c77a5279e404f9ff2e67dd43a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36477ff322e74614b1626460bff0b6f') in 0.021344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Gas Station/Textures/Toon_Ramp_1A_D.psd
+  artifactKey: Guid(da063c8a9f2f3034f99487e7223e3cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Toon_Ramp_1A_D.psd using Guid(da063c8a9f2f3034f99487e7223e3cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6045990bc3de6f2c16ddee811c45bdc3') in 0.017951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Gas Station/Textures/Dirt_1D.psd
+  artifactKey: Guid(f16b30ec42d2c2744b54ad8714c01a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Dirt_1D.psd using Guid(f16b30ec42d2c2744b54ad8714c01a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57aac3a659328f9213952d56b1c672c') in 0.021034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Textures/Flower_Billboard_1B.psd
+  artifactKey: Guid(e6af1a3e97b4c984891cbebcb3994fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Flower_Billboard_1B.psd using Guid(e6af1a3e97b4c984891cbebcb3994fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e87555573a22e25b6ad7a863ae549ee') in 0.016321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Gas Station/Textures/Props_2A_D.psd
+  artifactKey: Guid(6b931a52be603e54c92ba8524ca3f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Props_2A_D.psd using Guid(6b931a52be603e54c92ba8524ca3f5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a9f7451c459849b91b692881195300') in 0.017280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Textures/Grass_Billboard_1C.psd
+  artifactKey: Guid(31829fe5a303d8e46a6166362317f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Grass_Billboard_1C.psd using Guid(31829fe5a303d8e46a6166362317f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1123bd6708c570a033d69d65556499ed') in 0.020241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Textures/Grass_Billboard_1A.psd
+  artifactKey: Guid(2bda4f3a72a72be4699a088cda0a2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Grass_Billboard_1A.psd using Guid(2bda4f3a72a72be4699a088cda0a2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2303ac8a5c5aa53565340cf7ed1063b') in 0.016715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Toon Gas Station/Textures/Car_21A_D.psd
+  artifactKey: Guid(b0c1e230770189740946357d02271cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Car_21A_D.psd using Guid(b0c1e230770189740946357d02271cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c387b0474e70573555a129e35584da7d') in 0.025100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Gas Station/Textures/Road_1A_D.psd
+  artifactKey: Guid(575bc32fecc1ad042bf1a528e5e07fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Textures/Road_1A_D.psd using Guid(575bc32fecc1ad042bf1a528e5e07fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc0caef1dacd26eaa0235cc48382278') in 0.013293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.162925 seconds.
+  path: Assets/Toon Gas Station/Terrain/layer_Dirt_1E(4.000,4.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(028079898a87c0f4da302c8e2ee49823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Terrain/layer_Dirt_1E(4.000,4.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(028079898a87c0f4da302c8e2ee49823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6042042371856ce72203a5184a86aa58') in 0.038546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Gas Station/Terrain/Terrain_Demo_Scene.asset
+  artifactKey: Guid(7db3b1b4bcd41fa488f5d828d1cb2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Gas Station/Terrain/Terrain_Demo_Scene.asset using Guid(7db3b1b4bcd41fa488f5d828d1cb2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c71e036755e5e6696ad40994b212de') in 0.085171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 543.248330 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/Building1_A_LevelA.prefab
+  artifactKey: Guid(c260732853d21d24894963a5a6a26c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/Building1_A_LevelA.prefab using Guid(c260732853d21d24894963a5a6a26c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a3e2c4b66812fee21ed4c39282f02') in 0.273768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/StreetLight.prefab
+  artifactKey: Guid(d831013a484a8f849b3b2254b7f1c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/StreetLight.prefab using Guid(d831013a484a8f849b3b2254b7f1c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13960c39b182a22d49768eefff5cccb8') in 0.023219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/Road_Straight.prefab
+  artifactKey: Guid(3e53f9514e887d84b843f7c47f5c7f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/Road_Straight.prefab using Guid(3e53f9514e887d84b843f7c47f5c7f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e967c58c5a3780f1adcda9e5fbe2820a') in 0.026905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/Road_Corner.prefab
+  artifactKey: Guid(e225cdc944265e24fa41a9852a338562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/Road_Corner.prefab using Guid(e225cdc944265e24fa41a9852a338562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3887989bcb60d1d962f948e28de698c') in 0.042770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/PoliceCar.prefab
+  artifactKey: Guid(dae7f8c3cbaf0fb439b0d7e0ab0fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/PoliceCar.prefab using Guid(dae7f8c3cbaf0fb439b0d7e0ab0fda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8793367face45ed53c6afbe1b1a704') in 0.026775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/Building1_A_Roof.prefab
+  artifactKey: Guid(5ca9f9e0592b9394bb4619de2f489b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/Building1_A_Roof.prefab using Guid(5ca9f9e0592b9394bb4619de2f489b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73831011c9bccf5feed8ac50768ba113') in 0.111836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FreeCartoonCity/Prefabs/StreetSign.prefab
+  artifactKey: Guid(70ed566919f23de4fb0f5e47592c5512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeCartoonCity/Prefabs/StreetSign.prefab using Guid(70ed566919f23de4fb0f5e47592c5512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70800ed0e0fcbf57446ce754ad885260') in 0.020436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
